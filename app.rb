@@ -47,5 +47,11 @@ class MyWebApp < Sinatra::Base
         text
       end
     end
+    def use_google_font(font)
+      %(<link href='https://fonts.googleapis.com/css?family=#{font}' rel='stylesheet' type='text/css'>)
+    end
+    def icon(default)
+      %(<span class="glyphicon glyphicon-#{default}" aria-hidden="true"></span>)
+    end
   end
 end

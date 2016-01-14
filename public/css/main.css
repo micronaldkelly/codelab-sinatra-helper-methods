@@ -1,5 +1,6 @@
 body {
     background-color: #d0e4fe;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 }
 
 h1 {
@@ -10,4 +11,7 @@ h1 {
 p {
     font-family: "Times New Roman";
     font-size: 20px;
+}
+.story{
+  font-family: "Lato"
 }
